@@ -88,3 +88,55 @@ h1 {
 #generate-btn:hover {
     background-color: #005f7a;
 }
+
+.contact-section {
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid var(--shadow);
+    margin-bottom: 25px;
+}
+
+h3 {
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: var(--container-bg);
+    color: var(--text-color);
+    box-sizing: border-box; /* Important for padding */
+}
+
+.form-group textarea {
+    height: 100px;
+    resize: none;
+}
+
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
